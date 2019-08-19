@@ -17,7 +17,7 @@
 		    $db["pass"],
 		    ltrim($db["path"], "/")
 		));
-		
+
 		$sql = "SELECT studentname, course FROM registercourse";
 		$stmt = $pdo->prepare($sql);
 		//Thi?t l?p ki?u d? li?u tr? v?
